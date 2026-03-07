@@ -686,7 +686,8 @@ body { background-color: var(--bg-base);
 
   /* Tables — horizontal scroll container */
   .table-wrap, .ds-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-  table { min-width: 480px; }
+  table { width: 100%; min-width: 100%; font-size: var(--text-sm); }
+  table th, table td { padding: var(--space-2) var(--space-3); white-space: nowrap; }
 
   /* Code blocks */
   pre, code { font-size: var(--text-xs); overflow-x: auto; }
